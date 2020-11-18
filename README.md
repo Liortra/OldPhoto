@@ -1,4 +1,4 @@
-# OldPhoto
+# OldPhoto <img src="imageOldPhoto/oldPhotoLogo.jpg" width="100" height="100"> 
 [![](https://jitpack.io/v/Liortra/OldPhoto.svg)](https://jitpack.io/#Liortra/OldPhoto)
 
 ## Table of Contents
@@ -7,6 +7,8 @@
 * [How To Use](https://github.com/Liortra/OldPhoto/blob/master/README.md#how-to-use)
 * [Note](https://github.com/Liortra/OldPhoto/blob/master/README.md#note)
 * [License](https://github.com/Liortra/OldPhoto/blob/master/README.md#license)
+
+<img src="imageOldPhoto/oldPhoto.jpg" width="200"> 
 
 ## Explanation
 A simple library that get your photos from your gallery and change the color to black and white.
