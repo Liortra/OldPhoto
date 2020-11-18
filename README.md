@@ -2,12 +2,14 @@
 [![](https://jitpack.io/v/Liortra/OldPhoto.svg)](https://jitpack.io/#Liortra/OldPhoto)
 
 ## Table of Contents
-* [What Is It for](https://github.com/Liortra/OldPhoto/edit/master/README.md#explanation)
+* [Explanation](https://github.com/Liortra/OldPhoto/edit/master/README.md#explanation)
 * [Setup](https://github.com/Liortra/OldPhoto/edit/master/README.md#setup)
+* [How To Use](https://github.com/Liortra/OldPhoto/edit/master/README.md#how-to-use)
 
 
 ## Explanation
 A simple library that get your photos from your gallery and change the color to black and white.
+Here you have a simple app that use the library to show you how to works.
 
 ## Setup
 Step 1. Add it in your root build.gradle at the end of repositories:
@@ -28,11 +30,11 @@ dependencies {
 ```
 
 ##  How To Use
-**1** Create an instance in your activity
+**1.** Create an instance in your activity
 ```Java
   Convertor convertor = new Convertor(this);
   ```
-**2** Add the next methods to your activity
+**2.** Add the next methods to your activity
 ```Java
   //handle result of Runtime permission
     @Override
@@ -47,7 +49,12 @@ dependencies {
         convertor.onActivityResult(requestCode,resultCode,data,main_IMG_photo);
     }
 ```
-**3** Now you can use the method
+**3.** Now you can use the method
 ```Java
   convertor.changePhoto()
 ```
+
+
+## Note
+The app will ask your premission to get to your gallery, please allow it.
+
