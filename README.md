@@ -60,7 +60,7 @@ The app will ask your premission to get to your gallery, please allow it.
 
 ## License
 
-    Copyright 2019 Guy Isakov
+    Copyright 2020 Lior Trachtman
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
