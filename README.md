@@ -26,7 +26,7 @@ Step 2. Add the dependency:
 
 ```
 dependencies {
-  implementation 'com.github.Liortra:OldPhoto:Tag'
+  implementation 'com.github.Liortra:OldPhoto:1.00.01'
 }
 ```
 
