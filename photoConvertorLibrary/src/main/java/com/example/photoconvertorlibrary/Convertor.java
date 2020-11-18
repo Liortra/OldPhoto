@@ -21,10 +21,18 @@ public class Convertor {
     private static final int IMG_PICK_CODE = 1000;
     private static final int PERMISSION_CODE = 1001;
 
+    /**
+     * constructor
+     * @param activity - The target activity.
+     */
     public Convertor(Activity activity){
         this.activity = activity;
     }
 
+    /**
+     * Activate the logic of the library.
+     * Asking for permission and ask to pick an image
+     */
     public void changePhoto(){
         //check Runtime permission
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M){
@@ -41,6 +49,9 @@ public class Convertor {
         }
     }
 
+    /**
+     * Picking an image from you gallery
+     */
     private void pickImageFromGallery() {
         //Intent
         Intent intent = new Intent(Intent.ACTION_PICK);
@@ -48,6 +59,11 @@ public class Convertor {
         activity.startActivityForResult(intent, IMG_PICK_CODE);
     }
 
+    /**
+     * Changing the color of the image that was pick from the gallery to black and white
+     * @param main_img_photo - The ImageView in your activity
+     * @param data - The image that picked from the gallery
+     */
     public void changeColorFilter(ImageView main_img_photo, Uri data) {
         main_img_photo.setImageURI(data);
         ColorMatrix matrix = new ColorMatrix();
@@ -56,7 +72,12 @@ public class Convertor {
         main_img_photo.setColorFilter(filter);
     }
 
-    //handle result of Runtime permission
+    /**
+     * Handle result of Runtime permission
+     * @param requestCode - Application specific request code to match with a result
+     * @param permissions - The requested permissions. Must me non-null and not empty.
+     * @param grantResults - List of integer result code returned. Must me non-null and not empty.
+     */
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if (requestCode == PERMISSION_CODE) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
@@ -67,7 +88,13 @@ public class Convertor {
         }
     }
 
-    //handle result of picked image
+    /**
+     * Handle result of picked image
+     * @param requestCode - Application specific request code to match with a result
+     * @param  - The integer result code returned
+     * @param data - The IntentSender to launch.
+     * @param main_IMG_photo - The ImageView to put the photo from your gallery.
+     */
     public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data, ImageView main_IMG_photo) {
         if (resultCode == activity.RESULT_OK && requestCode == IMG_PICK_CODE) {
             changeColorFilter(main_IMG_photo,data.getData());
