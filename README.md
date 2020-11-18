@@ -2,10 +2,10 @@
 [![](https://jitpack.io/v/Liortra/OldPhoto.svg)](https://jitpack.io/#Liortra/OldPhoto)
 
 ## Table of Contents
-* [Explanation](https://github.com/Liortra/OldPhoto/edit/master/README.md#explanation)
-* [Setup](https://github.com/Liortra/OldPhoto/edit/master/README.md#setup)
-* [How To Use](https://github.com/Liortra/OldPhoto/edit/master/README.md#how-to-use)
-
+* [Explanation](https://github.com/Liortra/OldPhoto/blob/master/README.md#explanation)
+* [Setup](https://github.com/Liortra/OldPhoto/blob/master/README.md#setup)
+* [How To Use](https://github.com/Liortra/OldPhoto/blob/master/README.md#how-to-use)
+* [Note](https://github.com/Liortra/OldPhoto/blob/master/README.md#note)
 
 ## Explanation
 A simple library that get your photos from your gallery and change the color to black and white.
