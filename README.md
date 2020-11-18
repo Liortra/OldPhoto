@@ -6,6 +6,7 @@
 * [Setup](https://github.com/Liortra/OldPhoto/blob/master/README.md#setup)
 * [How To Use](https://github.com/Liortra/OldPhoto/blob/master/README.md#how-to-use)
 * [Note](https://github.com/Liortra/OldPhoto/blob/master/README.md#note)
+* [License](https://github.com/Liortra/OldPhoto/blob/master/README.md#license)
 
 ## Explanation
 A simple library that get your photos from your gallery and change the color to black and white.
@@ -54,7 +55,22 @@ dependencies {
   convertor.changePhoto()
 ```
 
-
 ## Note
 The app will ask your premission to get to your gallery, please allow it.
+
+## License
+
+    Copyright 2019 Guy Isakov
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
