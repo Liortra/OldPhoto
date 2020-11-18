@@ -2,8 +2,8 @@
 [![](https://jitpack.io/v/Liortra/OldPhoto.svg)](https://jitpack.io/#Liortra/OldPhoto)
 
 ## Table of Contents
-* [What Is It for](https://github.com/paz-lavi/AccessTo/blob/master/README.md#what-is-it-for)
-* [Setup](https://github.com/paz-lavi/AccessTo/blob/master/README.md#setup)
+* [What Is It for](https://github.com/Liortra/OldPhoto/edit/master/README.md#what-is-it-for)
+* [Setup](https://github.com/Liortra/OldPhoto/edit/master/README.md#setup)
 
 
 ## What Is It for
